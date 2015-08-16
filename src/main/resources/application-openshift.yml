@@ -1,0 +1,6 @@
+management:
+  context-path: /manage
+
+logging:
+  file: ${OPENSHIFT_DATA_DIR}/logs/spring-boot-application.log
+  level.: INFO
